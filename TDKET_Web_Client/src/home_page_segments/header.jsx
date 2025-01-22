@@ -7,7 +7,7 @@ const Header = () => {
           <img src="/logo.png" className="h-20" alt="Logo" />
           <ul className="flex text-gray-400 ml-28 space-x-10">
             <li className=" hover:text-gray-200 hover:font-bold"><a href="">Home</a></li>
-            <li className=" hover:text-gray-200 hover:font-bold"><a href="">About Us</a></li>
+            <li className=" hover:text-gray-200 hover:font-bold"><a href="/about_us">About Us</a></li>
             <li className=" hover:text-gray-200 hover:font-bold"><a href="">News</a></li>
             <li className=" hover:text-gray-200 hover:font-bold"><a href="">TDKET Open</a></li>
             <li className=" hover:text-gray-200 hover:font-bold"><a href="">Events</a></li>

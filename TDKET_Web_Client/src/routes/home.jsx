@@ -7,7 +7,7 @@ import Hero from '../home_page_segments/hero'
 import ProjectOffers from '../home_page_segments/project_offers'
 import Short_video from '../home_page_segments/short_video'
 import Testimony from '../home_page_segments/testimony'
-import TopDonors from '../home_page_segments/top_donners'
+import TopDonors from '../home_page_segments/top_donors'
 
 function Home() {
   return (
@@ -22,6 +22,7 @@ function Home() {
         <Testimony />
         <Famous_icons />
         <Footer />
+
       
     </div>
   )

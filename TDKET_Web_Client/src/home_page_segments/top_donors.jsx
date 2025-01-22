@@ -1,6 +1,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+
 import Dimg1 from "../assets/images/dimg1.png"
 import Dimg2 from "../assets/images/dimg2.png"
 import Dimg3 from "../assets/images/dimg3.png"
@@ -21,8 +22,10 @@ const TopDonors = () => {
     autoplay: true,
     autoplaySpeed: 8000,
   };
+  
 
   return (
+    
     <div className='bg-gray-100 font-poppins h-screen mb-16'>
       <div className="p-10"><h1 className="text-center font-bold text-5xl leading-snug font-poppins">Our Top Donors</h1></div>
       
